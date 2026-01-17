@@ -70,19 +70,3 @@ Este projeto propõe um agente virtual que atua como um **copiloto de bem-estar 
 - **Engajamento:** Taxa de clientes que definem metas após interação  
 
 ---
-
-## Estrutura do Repositório
-
-agente_financeiro/
-├── data/                  # Seus arquivos de dados
-│   ├── transacoes.csv
-│   ├── perfil_cliente.json
-│   ├── produtos_financeiros.json
-│   └── educacao_financeira.json
-├── src/                   # Onde o código mora 
-│   ├── agente.py          # Lógica, cálculos e IA
-│   └── app.py             # Interface visual (Streamlit)
-├── requirements.txt       # Lista de bibliotecas para instalar
-└── README.md              # Instruções de como rodar
-
----
