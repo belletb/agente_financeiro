@@ -282,6 +282,4 @@ Contribuições são muito bem-vindas! Para contribuir:
 
 <div align="center">
 
-[⬆ Voltar ao topo](#-copiloto-de-bem-estar-financeiro-com-ia-generativa)
-
 </div>
