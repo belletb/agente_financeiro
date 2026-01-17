@@ -57,3 +57,4 @@ Metas Financeiras:
 Sugestões Educativas:
 - "Reduza gastos supérfluos em 15% para acelerar sua reserva de emergência."
 - "Defina um valor fixo mensal para poupança automática."
+```

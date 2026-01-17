@@ -20,11 +20,6 @@ Este projeto propõe um agente virtual que atua como um **copiloto de bem-estar 
 
 - **Caso de Uso:** Planejamento de bem-estar financeiro (equilíbrio entre consumo, poupança e metas).  
 - **Persona e Tom de Voz:** Amigável, consultivo e educativo, como um “coach financeiro digital”.  
-- **Arquitetura:**  
-  - SQL para consultas sobre transações  
-  - Python para cálculos e simulações  
-  - Excel para relatórios visuais exportáveis  
-  - LLM para explicações e recomendações personalizadas  
 - **Segurança:**  
   - Respostas baseadas em dados mockados  
   - Validação de cálculos antes de sugerir metas  
@@ -76,42 +71,18 @@ Este projeto propõe um agente virtual que atua como um **copiloto de bem-estar 
 
 ---
 
-### 6. Pitch
-
-Grave um pitch de 3 minutos explicando:  
-- O problema: clientes querem equilíbrio financeiro, não apenas investimentos  
-- A solução: um copiloto que une dados, simulações e IA generativa  
-- O diferencial: foco em **bem-estar financeiro** e **educação consultiva**  
-
----
-
 ## Estrutura do Repositório
 
-📁 lab-agente-financeiro/
-│
-├── 📄 README.md
-│
-├── 📁 data/                          # Dados mockados para o agente
-│   ├── historico_atendimento.csv     # Histórico de atendimentos (CSV)
-│   ├── perfil_investidor.json        # Perfil do cliente (JSON)
-│   ├── produtos_financeiros.json     # Produtos disponíveis (JSON)
-│   └── transacoes.csv                # Histórico de transações (CSV)
-│
-├── 📁 docs/                          # Documentação do projeto
-│   ├── 01-documentacao-agente.md     # Caso de uso e arquitetura
-│   ├── 02-base-conhecimento.md       # Estratégia de dados
-│   ├── 03-prompts.md                 # Engenharia de prompts
-│   ├── 04-metricas.md                # Avaliação e métricas
-│   └── 05-pitch.md                   # Roteiro do pitch
-│
-├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
-│
-├── 📁 assets/                        # Imagens e diagramas
-│   └── ...
-│
-└── 📁 examples/                      # Referências e exemplos
-    └── README.md
-
+agente_financeiro/
+├── data/                  # Seus arquivos de dados
+│   ├── transacoes.csv
+│   ├── perfil_cliente.json
+│   ├── produtos_financeiros.json
+│   └── educacao_financeira.json
+├── src/                   # Onde o código mora 
+│   ├── agente.py          # Lógica, cálculos e IA
+│   └── app.py             # Interface visual (Streamlit)
+├── requirements.txt       # Lista de bibliotecas para instalar
+└── README.md              # Instruções de como rodar
 
 ---

@@ -64,17 +64,7 @@ flowchart TD
     H --> B
     E --> B
     K --> B
-
-### Componentes
-
-| Componente          | Descrição |
-|---------------------|-----------|
-| **Interface**       | Chatbot interativo em Streamlit |
-| **LLM**             | Modelo de IA generativa (ex: GPT via API) |
-| **Base de Conhecimento** | Dados mockados em JSON/CSV (transações, perfil, metas) |
-| **Validação**       | Checagem de consistência e anti-alucinação |
-| **Relatórios**      | Exportação de gráficos e tabelas em Excel |
-
+```
 ---
 
 ## Segurança e Anti-Alucinação
